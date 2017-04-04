@@ -11,23 +11,11 @@ namespace SliderDemo
     {
         public App()
         {
-            // The root page of your application
-            var content = new ContentPage
-            {
-                Title = "SliderDemo",
-                Content = new StackLayout
-                {
-                    VerticalOptions = LayoutOptions.Center,
-                    Children = {
-                        new Label {
-                            HorizontalTextAlignment = TextAlignment.Center,
-                            Text = "Welcome to Xamarin Forms!"
-                        }
-                    }
-                }
-            };
+           // The root page of your application
+           
 
-            MainPage = new NavigationPage(content);
+
+            MainPage = new SliderPage1();
         }
 
         protected override void OnStart()
